@@ -1,0 +1,101 @@
+ /* Base */
+        body {
+            background-color: #0d1117; /* Fundo escuro */
+            font-family: 'Segoe UI', sans-serif;
+            overflow-x: hidden;
+            color: #CCCCCC;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #181616 !important;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .navbar .nav-link {
+            color: #CCCCCC !important;
+        }
+        .navbar .nav-link:hover {
+            color: #FFB300 !important;
+        }
+
+        .navbar .btn-success:hover {
+            background-color: #ff0000;
+            color: #C8102E;
+        }
+
+        .navbar.scrolled {
+            background-color: #1b1f27 !important;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+
+        /* Hero Section - Degradê Suave de Vermelho e Vinho */
+        .hero {
+            height: 100vh;
+            /* Degradê Suave: A opacidade (0.4 e 0.6) é baixa para se misturar com o fundo escuro */
+            background: linear-gradient(
+                140deg, /* Degradê na diagonal para um visual mais suave */
+                rgba(196, 123, 123, 0.4),    /* Vermelho/Rosa Antigo Pálido (suave) */
+                rgba(214, 20, 65, 0.6)       /* Vinho/Borgonha (suave e transparente) */
+            ), center/cover no-repeat;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            /* Sombra de texto geral, ajustada para o h1 */
+            text-shadow: 0 0 8px rgba(0, 0, 0, 0.5); 
+        }
+
+        .hero h1 {
+            color: #FFFFFF;
+        }
+        
+        .hero p {
+            color: #FFFFFF; 
+            text-shadow: 0 0 5px rgba(0, 0, 0, 0.192); 
+            font-size: 1.2em; 
+            font-weight: 400; 
+            margin-top: 15px;
+            opacity: 1.9;
+        }
+
+  
+        .hero .btn-primary {
+            background-color: #FFFFFF;
+            color: #C8102E; 
+            border: none;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: all 0.2s ease;
+            border-radius: 8px; 
+        }
+        
+
+        .hero .btn-primary:hover {
+            background-color: #C8102E; 
+            color: #FFFFFF; 
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero .btn-outline-light {
+             border-radius: 8px; 
+        }
+        
+        footer {
+            background-color: #222121;
+            color: #FFFFFF;
+        }
+
+        footer a {
+            color: #F5F5F5;
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: #ff0000 !important; 
+        }
+
+        .text-strong-contrast {
+            color: #FFFFFF !important;
+        }
+        
